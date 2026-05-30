@@ -1,6 +1,6 @@
 
 
-#import dice
+import dice
 from time import sleep
 
 
