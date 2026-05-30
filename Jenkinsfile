@@ -38,6 +38,11 @@ pipeline{
                     }
                 }
             }
+            post{
+                failure{
+                    echo 'El pipeline ha fallado'
+                }
+            }
         }
         stage('Deploy'){
             steps{
